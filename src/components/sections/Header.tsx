@@ -46,21 +46,15 @@ export default function Header() {
           {/* Logo */}
           <a
             href="#"
-            className="flex items-center gap-3 group"
+            className="flex items-center group"
             aria-label="GD Jersey - Home"
           >
-            <div className="relative">
-              <div className="w-12 h-12 rounded-full bg-gd-red flex items-center justify-center font-heading font-bold text-lg text-gd-cream tracking-wider group-hover:scale-105 transition-transform">
-                GD
-              </div>
-            </div>
-            <div className="hidden sm:block">
-              <p className="font-heading text-lg font-bold text-gd-cream leading-none tracking-wider uppercase">
-                GD Jersey
-              </p>
-              <p className="text-[10px] text-gd-cream-muted tracking-[0.2em] uppercase">
-                T-Shirt Printing
-              </p>
+            <div className="relative h-11 sm:h-14 rounded-md border border-gd-cream/10 bg-gd-black p-1.5 shadow-sm group-hover:border-gd-red/40 group-hover:shadow-[0_0_20px_rgba(200,35,42,0.2)] group-hover:scale-105 transition-all duration-500 overflow-hidden flex items-center justify-center">
+              <img
+                src="/logo.jpg"
+                alt="GD Jersey Logo"
+                className="h-full w-auto object-contain rounded-sm"
+              />
             </div>
           </a>
 

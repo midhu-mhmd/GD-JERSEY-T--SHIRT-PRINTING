@@ -43,7 +43,7 @@ const contactLinks = [
 
 export default function Contact() {
   const headingRef = useRevealChildren();
-  const formRef = useReveal();
+  const formRef = useReveal<HTMLFormElement>();
   const linksRef = useRevealChildren();
 
   const [submitted, setSubmitted] = useState(false);
